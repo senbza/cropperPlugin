@@ -27,7 +27,7 @@ geturl:'string'
 ```
 imageUrl:url
 ```
-# 组件传出事件
+# ajax请求
 ```
 import ajax from ;//自行配置
 import { uploadImg } from //action地址,自行配置
