@@ -1,6 +1,6 @@
 # 组件需要值
-//截图配置
-pictureOption {
+#### 截图配置<br>
+```pictureOption {
     img: '', // 裁剪图片的地址
     info: true, // 裁剪框的大小信息
     outputSize: 1, // 裁剪生成图片的质量
@@ -16,9 +16,14 @@ pictureOption {
     fixedBox: false, // 截图框固定大小
     fixed: true, // 是否开启截图框宽高固定比例
     fixedNumber: [4, 3] // 截图框的宽高比例
-}
-//请求地址
+```
+#### 请求地址
+```
 geturl:'string'
+```
 # 组件传出事件
-finish
-值为剪切后的url：imageUrl
+#### @finish(data)
+#### data值为剪切后的url
+```
+imageUrl:url
+```
