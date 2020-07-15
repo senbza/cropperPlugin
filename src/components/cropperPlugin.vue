@@ -42,8 +42,8 @@
     </div>
 </template>
 <script>
-import ajax from '@/lib/ajax';
-import { uploadImg } from '@/lib/api';//action地址，自行修改
+import ajax from '../lib/ajax';
+import { uploadImg } from '../lib/api';//action地址，自行修改
 
 export default {
 
