@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import cropperPlugin from './components/cropperPlugin.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    cropperPlugin
   }
 }
 </script>
