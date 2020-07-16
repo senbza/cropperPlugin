@@ -23,12 +23,7 @@ geturl:'string'
 ```
 # 组件传出事件
 #### @finish(data)
-#### data值为剪切后的url
+#### data值为剪切后的图片
 ```
-imageUrl:url
-```
-# ajax请求
-```
-import ajax from ;//自行配置
-import { uploadImg } from //action地址,自行配置
+imageUrl:img
 ```
